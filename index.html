@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <script defer src="script.js"></script>
+    <title>Sarah McIntosh Art</title>
+</head>
+<body>
+    
+    <div class="banner">
+        <p>Free Shipping Australia Wide. Buy now pay later with Afterpay!</p>
+    </div>
+
+<header>
+  <div class="header-container">
+    <div class="logo-container">
+      <img class="logosignature" src="images/logo.jpg" alt="logo">
+    </div>
+
+    <div class="nav-container">
+
+      <div class="hamburger-icon">
+        <a href="#"><img src="images/burger.PNG"></a>
+      </div>
+
+      <div class="shopping-cart-icon">
+        <a href="#"><img src="images/carticon.PNG" alt="cart icon"></a>
+      </div>
+
+      
+    </div>
+  </div>
+    
+  <nav>
+    <div class="list-container">
+      <ul>
+        <li><a href="#">Shop</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+</header>
+
+
+<section class="hero">
+  <h2 class="hero_subtitle">Enjoy your own original piece from the Mornington Peninsula</h2>
+  <div class="hero-image-container">
+    <img class="hero-image" src="images/hero-image.JPG" alt="hero-image">
+    <button class="hero_button">Shop Originals</button>
+  </div>
+</section>
+
+
+  <section class="meet-sarah-container">
+    <div class="meet-sarah-container-text">
+        <h1 class="meet-sarah-container-title">Meet Sarah</h1>
+        <h2 class="meet-sarah-container-subtitle">Peninsula Dreamings</h2>
+        <p class="meet-sarah-container-paragraph">Sarah McIntosh is an 
+        abstract artist who uses 
+        the natural surroundings of her home land on the Mornington 
+        Peninsula as inspiration. The colours of land, sea and sky all
+        present themselves in Sarah's paintings and represent the 
+        amazing diversity and beauty of the Mornington Peninsula.
+        <p class="meet-sarah-workstudy">Sarah studied a Bachelor of Fine Arts at Monash University and 
+        went on to study a Cert. IV in Graphic Design. Sarah has been a formally
+        trained art teacher with 10 years experience working within a school setting. 
+        </p>
+    </div>
+    <div class="meet-sarah-images-container">
+        <div class="meet-sarah-image">
+            <img class="sarah-image" src="images/meet-sarah-square.png" alt="artist">
+        </div>
+        <div class="meet-sarah-image">
+            <img class="sarah-image" src="images/meet-sarah2.jpg" alt="artist">
+        </div>
+        <div class="meet-sarah-image">
+            <img class="sarah-image" src="images/meet-sarah3.jpg" alt="artist">
+        </div>
+        <div class="meet-sarah-image">
+          <img class="sarah-image" src="images/meet-sarah4.png" alt="artist">
+      </div>
+    </div>
+</section>
+  
+
+  <section class="shop-container">
+    <div class="orignals-shop-container">
+        <h2>Originals</h2>
+        <img class="originals-image" src="images/Original.JPG" alt="originalartwork-image">
+        <button class="shop-button originals-shop-button" id="shop-button">Shop Originals</button> <!-- Added "shop-button" class and "originals-shop-button" class -->
+    </div>
+    <div class="prints-container">
+        <h2>Limited Edition Prints</h2>
+        <img class="prints-image" src="images/prints.JPG" alt="prints-image">
+        <button class="shop-button prints-shop-button" id="shop-button">Shop Prints</button> <!-- Added "shop-button" class and "prints-shop-button" class -->
+    </div>
+    <div class="drawings-container">
+        <h2>Drawings</h2>
+        <img class="drawings-image" src="images/drawingimage.JPG" alt="drawings-image">
+        <button class="shop-button drawings-shop-button" id="shop-button">Shop Drawings</button> <!-- Added "shop-button" class and "drawings-shop-button" class -->
+    </div>
+</section>
+
+<section class="commissions">
+  <div class="background-image"></div>
+  <div class="commission-text-container">
+    <h2 class="commission-text">Let's talk about it</h2>
+    <p class="commissions-statement">Contact me on the form below to discuss commissions or any other questions you may have.</p>
+    <form id="contact-form" action="/submit" method="post" class="contact-form-container">
+      <label for="name">Name:</label>
+      <input type="text" id="name" name="name" required>
+
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" required>
+
+      <label for="message">Message:</label>
+      <textarea id="message" name="message" required></textarea>
+
+      <input type="submit" value="Submit">
+    </form>
+  </div>
+</section>
+
+<!----------- I didn't get upto adding this pop up SUBSCRIBE section  ---------_
+
+<section class="cta-subscribe-container">
+    <h3>Subscribe to my mailing list for first access to new releases and get 10% off your first order.</h3>
+    <div class ="cta-subscribe-form-container">
+        <form action="/subscribe" method="post">
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email">
+            <button type="submit" class="cta-button">Subscribe</button>
+        </form>
+    </div>
+  </section> -->
+
+  <section class="testimonials">
+    <h2 class="testimonials-title">Testimonials</h2>
+    <div class="testimonial">
+      <div class="testimonial-details">
+        <img class="testimonial-image" src="images/testamonial1.JPG" alt="in situ art 1">
+        <p class="testimonial-name">Robyn</p>
+      </div>
+      <blockquote class="quote">"I contacted Sarah for this commission piece. I am thrilled with my artwork and love the touch of nature for my Brisbane city apartment."</blockquote>
+    </div>
+    <div class="testimonial">
+      <div class="testimonial-details">
+        <img class="testimonial-image" src="images/testamonial3.JPG" alt="in situ art 2">
+        <p class="testimonial-name">Jennifer</p>
+      </div>
+      <blockquote class="quote">"Amazing artwork that I just adore having in the living room. Sarah is professional in every way and the shipping was free!"</blockquote>
+    </div>
+  </section>
+  
+
+
+  <footer class="footer">
+    <div class="logo-container">
+      <img class="logo" src="images/insta.PNG" alt="Logo">
+    </div>
+    <nav class="footer-nav">
+      <ul>
+        <li><a href="#about">About</a></li>
+        <li><a href="#contact">Contact</a></li>
+        <li><a href="#shipping">Shipping</a></li>
+        <li><a href="#subscribe">Subscribe</a></li>
+      </ul>
+    </nav>
+  </footer>
